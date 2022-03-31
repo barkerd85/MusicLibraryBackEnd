@@ -1,0 +1,23 @@
+{
+  "name": "musiclibrarybackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barkerd85/MusicLibraryBackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barkerd85/MusicLibraryBackEnd/issues"
+  },
+  "homepage": "https://github.com/barkerd85/MusicLibraryBackEnd#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
