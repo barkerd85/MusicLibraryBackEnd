@@ -197,6 +197,13 @@
     "album": "Because of the times",
     "artist": "Kings Of Leon",
     "genre": "Rock",
-    "releaseDate": "12/12/2012"
+    "releaseDate": "12/12/2020"
+  },
+  {
+    "id": 26,
+    "title": "Arizona",
+    "album": "Because of the times",
+    "artist": "Kings Of Leon",
+    "genre": "Rock"
   }
 ]

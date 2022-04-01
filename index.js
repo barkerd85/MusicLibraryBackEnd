@@ -1,16 +1,19 @@
 // Imports
 const express = require("express");
 const songValidate = require("./middleware/song-validation");
+const songLogger = require("./middleware/song-logger")
 const repoContext = require("./repository/repository-wrapper");
-
+const cors = require("cors")
 const app = express()
+
 
 
 // Middleware
 app.use(express.json())
 app.use(express.urlencoded({extended: true}));
+app.use(cors());
 
-// Endpoints
+
 // http://localhost:5000 (BASE URL)
 // http://localhost:5000/api/songs
 
@@ -33,23 +36,21 @@ app.get("/api/songs", (req, res) => {
 
 // GET song by id
 // http://localhost:5000/api/songs/:id
-app.get("/api/songs/:id", [songValidate], (req, res) => {
+app.get("/api/songs/:id", (req, res) => {
     const id = req.params.id;
     const song = repoContext.songs.findSongById(id);
     return res.send(song);
 });
 
 // POST new song
-app.post("/api/songs",  (req, res) => {
+app.post("/api/songs", [songLogger,songValidate],  (req, res) => {
     const newSong = req.body;
     const addedSong = repoContext.songs.createSong(newSong);
     return res.status(201).send(addedSong);
-
 });
 
-
 // PUT existing song
-app.put("/api/songs/:id", (req, res) => {
+app.put("/api/songs/:id", [songValidate], (req, res) => {
     const id = parseInt(req.params.id);
     const songPropertiesToModify = req.body;
     const songToUpdate = repoContext.songs.updateSong(id, songPropertiesToModify);
@@ -62,3 +63,4 @@ app.delete("/api/songs/:id", (req, res) => {
     const deletedSong = repoContext.songs.deleteSong(id);
     return res.send(deletedSong);
 })
+
