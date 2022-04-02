@@ -13,6 +13,7 @@ function songValidate(req, res, next) {
         if (
             songs.hasOwnProperty(property.name) &&
             typeof (songs[property.name] === property.type)
+            && songs[property.name] != ""
         ) {
     continue;
 }   else {

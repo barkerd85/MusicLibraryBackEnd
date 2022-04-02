@@ -61,6 +61,6 @@ app.put("/api/songs/:id", [songValidate], (req, res) => {
 app.delete("/api/songs/:id", (req, res) => {
     const id = parseInt(req.params.id);
     const deletedSong = repoContext.songs.deleteSong(id);
-    return res.send(deletedSong);
+    return res.status(201).send(deletedSong);
 })
 

@@ -105,14 +105,6 @@
   },
   {
     "id": 14,
-    "title": "Run For Your Life",
-    "album": "Rubber Soul",
-    "artist": "The Beatles",
-    "genre": "Folk Rock",
-    "releaseDate": "12/03/1965"
-  },
-  {
-    "id": 15,
     "title": "The District Sleeps Alone Tonight",
     "album": "Give Up",
     "artist": "The Postal Service",
@@ -120,7 +112,7 @@
     "releaseDate": "02/18/2003"
   },
   {
-    "id": 16,
+    "id": 15,
     "title": "Such Great Heights",
     "album": "Give Up",
     "artist": "The Postal Service",
@@ -128,7 +120,7 @@
     "releaseDate": "02/18/2003"
   },
   {
-    "id": 17,
+    "id": 16,
     "title": "Sleeping In",
     "album": "Give Up",
     "artist": "The Postal Service",
@@ -136,7 +128,7 @@
     "releaseDate": "02/18/2003"
   },
   {
-    "id": 18,
+    "id": 17,
     "title": "Nothing Better",
     "album": "Give Up",
     "artist": "The Postal Service",
@@ -144,7 +136,7 @@
     "releaseDate": "02/18/2003"
   },
   {
-    "id": 19,
+    "id": 18,
     "title": "Recycled Air",
     "album": "Give Up",
     "artist": "The Postal Service",
@@ -152,7 +144,7 @@
     "releaseDate": "02/18/2003"
   },
   {
-    "id": 20,
+    "id": 19,
     "title": "Clark Gable",
     "album": "Give Up",
     "artist": "The Postal Service",
@@ -160,7 +152,7 @@
     "releaseDate": "02/18/2003"
   },
   {
-    "id": 21,
+    "id": 20,
     "title": "We Will Become Silhouettes",
     "album": "Give Up",
     "artist": "The Postal Service",
@@ -168,7 +160,7 @@
     "releaseDate": "02/18/2003"
   },
   {
-    "id": 22,
+    "id": 21,
     "title": "This Place Is a Prison",
     "album": "Give Up",
     "artist": "The Postal Service",
@@ -176,7 +168,7 @@
     "releaseDate": "02/18/2003"
   },
   {
-    "id": 23,
+    "id": 22,
     "title": "Brand New Colony",
     "album": "Give Up",
     "artist": "The Postal Service",
@@ -184,26 +176,11 @@
     "releaseDate": "02/18/2003"
   },
   {
-    "id": 24,
-    "title": "Natural Anthem",
-    "album": "Give Up",
-    "artist": "The Postal Service",
-    "genre": "Alternative Indie",
-    "releaseDate": "02/18/2003"
-  },
-  {
-    "id": 25,
-    "title": "Arizona",
-    "album": "Because of the times",
-    "artist": "Kings Of Leon",
-    "genre": "Rock",
-    "releaseDate": "12/12/2020"
-  },
-  {
-    "id": 26,
-    "title": "Arizona",
-    "album": "Because of the times",
-    "artist": "Kings Of Leon",
-    "genre": "Rock"
+    "id": 23,
+    "title": "Bad",
+    "album": "Disc",
+    "artist": "Michael Jackson",
+    "genre": "Pop",
+    "releaseDate": "1992-02-04"
   }
 ]
